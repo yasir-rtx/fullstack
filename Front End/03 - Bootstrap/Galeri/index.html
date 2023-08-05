@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museum Gallery</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg " id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">MUSEUM</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" href="#ticket">Ticket</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="container-fluid px-0">
+        <div class="row align-items-center content" id="home">
+            <div class="col-lg-6">
+                <div class="text-white text-center d-none d-lg-block" id="title-head">
+                    <h1>Gallery of Autumn</h1>
+                    <h1>Gallery of Autumn</h1>
+                    <h1>Gallery of Autumn</h1>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <img src="Image/autumn1.jpg" alt="Image by Valentin from Pixabay" class="img-fluid">
+            </div>
+        </div>
+
+        <div class="row align-items-center content" id="about">
+            <div class="col-md-6 order-2 order-md-1">
+                <img src="Image/squre.jpg" alt="Image by Valentin from Pixabay" class="img-fluid">
+            </div>
+
+            <div class="col-md-6 text-center order-1 order-md-2">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 blurb pt-3">
+                        <h2>Museum of Losses</h2>
+                        <img src="Image/icon.png" alt="" height="60" class="d-none d-lg-inline">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur explicabo laboriosam repudiandae expedita aperiam voluptas itaque quis fugiat, tempora consequuntur rerum inventore sit cumque iusto ab mollitia ipsum earum aliquam!</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+        <div class="row align-items-center content">
+            <div class="col-md-6 order-2">
+                <img src="Image/autumn2.jpg" alt="Image by Valentin from Pixabay" class="img-fluid">
+            </div>
+
+            <div class="col-md-6 text-center order-1">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 blurb pt-3">
+                        <h2>Museum of Losses</h2>
+                        <img src="Image/icon.png" alt="" height="60" class="d-none d-lg-inline">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur explicabo laboriosam repudiandae expedita aperiam voluptas itaque quis fugiat, tempora consequuntur rerum inventore sit cumque iusto ab mollitia ipsum earum aliquam!</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row align-items-center content">
+            <div class="col-md-6 order-2 order-md-1">
+                <img src="Image/autumn2.jpg" alt="Image by Valentin from Pixabay" class="img-fluid">
+            </div>
+
+            <div class="col-md-6 text-center order-1 order-md-2">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 blurb pt-3">
+                        <h2>Museum of Losses</h2>
+                        <img src="Image/icon.png" alt="" height="60" class="d-none d-lg-inline">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur explicabo laboriosam repudiandae expedita aperiam voluptas itaque quis fugiat, tempora consequuntur rerum inventore sit cumque iusto ab mollitia ipsum earum aliquam!</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <!-- Jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+    <!-- My Script -->
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                let $nav = $('#navbar');
+                $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+            })
+        })
+    </script>
+</body>
+</html>

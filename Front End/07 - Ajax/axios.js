@@ -22,8 +22,30 @@ const getPeople = async (id) => {
     }
 };
 
-// getPeople(1);
+const jokes = document.querySelector('#jokes');
+const btn = document.querySelector('button');
 
-for (let i = 1; i <= 10; i++) {
-    getPeople(i);
-}
+const addJoke = async () => {
+    const jokeText = await getJoke();
+    const newLI = document.createElement('LI');
+    newLI.append(jokeText);
+    jokes.append(newLI);
+};
+
+const getJoke = async () => {
+    try {
+        const config = {
+            headers: {
+                Accept: 'application/json'
+            }
+        };
+        const response = await axios.get(`https://icanhazdadjoke.com`, config);
+        console.log(response.data.joke);
+        return response.data.joke;
+        // console.log(response.status);
+    } catch (error) {
+        return "No Jokes Available!";
+    }
+};
+
+btn.addEventListener('click', addJoke);

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Effect</title>
+</head>
+
+<body>
+    <h1>Where do you want to go ?</h1>
+    <ul>
+        <li class="bandung">Bandung</li>
+        <li class="jakarta">Jakarta</li>
+        <li class="surabaya">Surabaya</li>
+    </ul>
+
+    <select name="targetEffect" id="targetEffect">
+        <option value="-">Target Effect</option>
+        <option value=".bandung">Bandung</option>
+        <option value=".jakarta">Jakarta</option>
+        <option value=".surabaya">Surabaya</option>
+    </select>
+
+    <select name="listEffect" id="listEffect">
+        <option value="">List Effect</option>
+        <option value="toggle()">Toggle</option>
+        <option value="slideToggle()">Slide</option>
+        <option value="fadeToggle()">Fade</option>
+    </select>
+
+    <input type="text" id="duration" value="" size="5" placeholder="Second">
+
+    <button id="effect">Run!</button>
+    <br><br>
+
+    <select name="targetEffect2" id="targetEffect2">
+        <option value="-">Target Effect</option>
+        <option value=".bandung">Bandung</option>
+        <option value=".jakarta">Jakarta</option>
+        <option value=".surabaya">Surabaya</option>
+    </select>
+    <button id="animate">Animate!</button>
+
+    <!-- jQuery -->
+    <script src="../jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

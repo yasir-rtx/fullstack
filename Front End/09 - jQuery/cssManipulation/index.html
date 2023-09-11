@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Manipulation</title>
+    <style>
+        .red {
+            color: red;
+            font-weight: bold;
+        }
+
+        .green {
+            color: green;
+            font-weight: bold;
+        }
+
+        .blue {
+            color: blue;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Where do you want to go ?</h1>
+    <ul class="lokasi">
+        <li class="bandung">Bandung</li>
+        <li class="jakarta">Jakarta</li>
+        <li class="surabaya">Surabaya</li>
+    </ul>
+
+    <select name="listTarget" id="listTarget">
+        <option value="-">Select Target</option>
+        <option value=".bandung">Bandung</option>
+        <option value=".jakarta">Jakarta</option>
+        <option value=".surabaya">Surabaya</option>
+    </select>
+
+    <select name="listColor" id="listColor">
+        <option value="-">Select Color</option>
+        <option value="red">red</option>
+        <option value="green">green</option>
+        <option value="blue">blue</option>
+    </select>
+
+    <button id="change">Change!</button>
+
+    <br><br>
+    <select name="listTarget2" id="listTarget2">
+        <option value="-">Select Target</option>
+        <option value=".bandung">Bandung</option>
+        <option value=".jakarta">Jakarta</option>
+        <option value=".surabaya">Surabaya</option>
+    </select>
+    <button id="css">CSS</button>
+
+    <!-- jQuery -->
+    <script src="../jquery-3.7.1.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

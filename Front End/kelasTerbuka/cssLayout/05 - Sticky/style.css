@@ -1,0 +1,21 @@
+h2 {
+    background-color: salmon;
+    height: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.title1 {
+    position: sticky;
+    top: 0px;
+}
+
+.title2 {
+    position: sticky;
+    top: 55px;
+}
+
+.title3 {
+    position: sticky;
+    bottom: 0px;
+}

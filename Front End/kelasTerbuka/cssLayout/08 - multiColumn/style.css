@@ -1,0 +1,47 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background-color: burlywood;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    height: 100px;
+    text-align: center;
+    z-index: 2;
+}
+
+/* Container */
+.container {
+    z-index: 1;
+    position: relative;
+    top: 100px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.kolom-konten {
+    width: 600px;
+    float: left;
+}
+
+.kolom-menu {
+    background-color: aquamarine;
+    width: 180px;
+    padding: 10px;
+    float: left;
+    margin-left: 20px;
+}
+
+.kolom-menu ul {
+    list-style-type: none;
+}
+
+.kolom-menu ul li a {
+    text-decoration: none;
+}

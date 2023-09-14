@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+}
+
+#content {
+    overflow: auto;
+}
+
+nav,
+#feature,
+footer {
+    background-color: burlywood;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.column1,
+.column2,
+.column3 {
+    background-color: burlywood;
+    width: 30%;
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 0.66%;
+}
+
+#content h3 {
+    text-align: center;
+}
+
+#feature img {
+    width: 30%;
+}
+
+li a {
+    text-decoration: none;
+}
+
+li {
+    display: inline;
+    padding: 5px;
+}

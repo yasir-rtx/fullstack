@@ -1,0 +1,24 @@
+/* Fixed Position => */
+* {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    margin: 10px;
+    background-color: skyblue;
+}
+
+.navbar {
+    background-color: coral;
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+}
+
+.container {
+    margin-top: 50px;
+}

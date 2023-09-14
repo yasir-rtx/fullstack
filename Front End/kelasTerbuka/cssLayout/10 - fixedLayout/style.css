@@ -1,0 +1,43 @@
+body {
+    width: 960px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav,
+#hightlight,
+footer {
+    background-color: #efefef;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav li {
+    display: inline;
+    padding: 5px;
+}
+
+#hightlight img {
+    width: 50%;
+}
+
+.column1,
+.column2,
+.column3 {
+    width: 280px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #efefef;
+    float: left;
+}
+
+#content {
+    height: 100%;
+    overflow: auto;
+}

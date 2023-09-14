@@ -1,0 +1,15 @@
+/* Relative position => elemen akan relatif terhadap original position */
+body {
+    background-color: rgb(255, 248, 248);
+}
+
+p {
+    background-color: lime;
+    width: 500px;
+}
+
+.relative {
+    background-color: coral;
+    position: relative;
+    left: 50px;
+}

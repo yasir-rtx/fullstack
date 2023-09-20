@@ -1,3 +1,11 @@
 .gradient {
     background-image: linear-gradient(to bottom right, #4c51bf, #702459);
 }
+
+.gradient-skill {
+    background-image: linear-gradient(to left, #fc8181, #fed7d7);
+}
+
+.gradient-contact {
+    background-image: linear-gradient(to bottom, #4c51bf, #702459);
+}

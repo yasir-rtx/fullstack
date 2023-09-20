@@ -9,6 +9,9 @@
     <!-- Tailwind CSS -->
     <link rel="stylesheet" href="./dist/output.css" />
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+
     <!-- MY Style -->
     <link rel="stylesheet" href="./dist/style.css">
 </head>
@@ -63,7 +66,9 @@
     </header>
 
     <main>
-        <section id="about" class="w-screen mx-auto px-4 gradient">
+        <!-- About Me -->
+        <section id="about" class="w-screen mx-auto py-4 gradient">
+            <!-- Greeting -->
             <div class="px-16 py-8 text-center text-white">
                 <!-- Title -->
                 <h1 class="w-full text-5xl font-bold">About Me</h1>
@@ -88,22 +93,275 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Portofolio -->
+            <div
+                class="grid grid-cols-1 md:grid-cols-3 bg-white py-4 px-4 md:py-8 md:px-8 m-16 rounded-lg content-center">
+                <!-- Box 1 -->
+                <div class="max-w-sm shadow-lg px-4 py-4 bg-white m-3 text-center">
+                    <!-- Icon -->
+                    <i class="fas fa-laptop-code text-blue-500 fa-5x mb-6"></i>
+
+                    <!-- List -->
+                    <div class="p-4">
+                        <p class="font-bold text-lg md:text-xl mb-6">Programming</p>
+                        <p class="text-gray-600 text-base mb-2">Python</p>
+                        <hr class="text-gray-600 mb-2">
+                        <p class="text-gray-600 text-base mb-2">Javascript</p>
+                        <hr class="text-gray-600 mb-2">
+                        <p class="text-gray-600 text-base mb-2">Java</p>
+                        <hr class="text-gray-600 mb-2">
+                        <p class="text-gray-600 text-base mb-2">C++</p>
+                        <hr class="text-gray-600 mb-2">
+                    </div>
+
+                    <!-- Button -->
+                    <div class="px-2 py-4">
+                        <button
+                            class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 hover:shadow-lg rounded-tl-lg rounded-br-lg">See
+                            Portofolio</button>
+                    </div>
+                </div>
+
+                <!-- Box 2 -->
+                <div class="max-w-sm shadow-lg px-4 py-4 bg-white m-3 text-center">
+                    <!-- Icon -->
+                    <i class="fas fa-pencil-ruler text-red-500 fa-5x mb-6"></i>
+
+                    <!-- List -->
+                    <div class="p-4">
+                        <p class="font-bold text-lg md:text-xl mb-6">Deisgn</p>
+                        <p class="text-gray-600 text-base mb-2">CSS</p>
+                        <hr class="text-gray-600 mb-2">
+                        <p class="text-gray-600 text-base mb-2">Logo</p>
+                        <hr class="text-gray-600 mb-2">
+                        <p class="text-gray-600 text-base mb-2">Mobile</p>
+                        <hr class="text-gray-600 mb-2">
+                        <p class="text-gray-600 text-base mb-2">UI</p>
+                        <hr class="text-gray-600 mb-2">
+                    </div>
+
+                    <!-- Button -->
+                    <div class="px-2 py-4">
+                        <button
+                            class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 hover:shadow-lg rounded-tl-lg rounded-br-lg">See
+                            Portofolio</button>
+                    </div>
+                </div>
+
+                <!-- Box 3 -->
+                <div class="max-w-sm shadow-lg px-4 py-4 bg-white m-3 text-center">
+                    <!-- Icon -->
+                    <i class="fas fa-database text-green-500 fa-5x mb-6"></i>
+
+                    <!-- List -->
+                    <div class="p-4">
+                        <p class="font-bold text-lg md:text-xl mb-6">Database</p>
+                        <p class="text-gray-600 text-base mb-2">MySQL</p>
+                        <hr class="text-gray-600 mb-2">
+                        <p class="text-gray-600 text-base mb-2">PosgeeSQL</p>
+                        <hr class="text-gray-600 mb-2">
+                        <p class="text-gray-600 text-base mb-2">MongoDB</p>
+                        <hr class="text-gray-600 mb-2">
+                        <p class="text-gray-600 text-base mb-2">Oracle</p>
+                        <hr class="text-gray-600 mb-2">
+                    </div>
+
+                    <!-- Button -->
+                    <div class="px-2 py-4">
+                        <button
+                            class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 hover:shadow-lg rounded-tl-lg rounded-br-lg">See
+                            Portofolio</button>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section id="skill" class="w-screen mx-auto px-4 bg-white h-32">
-            Skill Framework
+        <!-- Skill Framework -->
+        <section id="skill" class="container mx-auto py-4 bg-white px-4">
+            <div class="flex flex-wrap">
+                <!-- Box 1 -->
+                <div class="w-full md:w-4/12 ml-auto mr-auto px-4 mt-20">
+                    <img src="./img/img3.jpg" alt="Skill" class="w-full rounded-lg shadow-lg">
+                </div>
+
+                <!-- Box 2 -->
+                <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+                    <div class="md:pr-12">
+                        <h1 class="w-full my-2 text-5xl font-bold text-center text-gray-700">Skill Framework</h1>
+                        <div class="mb-4">
+                            <div class="h-1 mx-auto bg-pink-500 w-1/2 opacity-75 my-0 rounded"></div>
+                        </div>
+                        <p class="mt-4 text-lg text-gray-600">Berikut adalah item dan skla keahklian untuk framework</p>
+                        <ul class="list-none mt-4">
+                            <li class="grid grid-cols-2 py-2">
+                                <p class="text-lg text-gray-600">Code Igniter</p>
+                                <div class="gradient-skill w-7/8"></div>
+                            </li>
+                            <li class="grid grid-cols-2 py-2">
+                                <p class="text-lg text-gray-600">Laravel</p>
+                                <div class="gradient-skill w-3/4"></div>
+                            </li>
+                            <li class="grid grid-cols-2 py-2">
+                                <p class="text-lg text-gray-600">Bootstrap</p>
+                                <div class="gradient-skill w-2/3"></div>
+                            </li>
+                            <li class="grid grid-cols-2 py-2">
+                                <p class="text-lg text-gray-600">Tailwind</p>
+                                <div class="gradient-skill w-1/2"></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section id="work" class="w-screen mx-auto px-4 bg-gray-300 h-32">
-            Recent Work
+        <!-- Recent Work -->
+        <section id="work" class="w-screen mx-auto py-8 bg-gray-200">
+            <div class="text-center mb-8">
+                <h1 class="w-full my-2 text-5xl font-bold text-gray-700">My Recent Work</h1>
+                <div class="mb-4">
+                    <div class="h-1 mx-auto bg-pink-500 w-1/4 opacity-75 my-0 py-0 rounded"></div>
+                </div>
+                <p class="text-lg m-4 text-gray-600">Berikut adalah pekerjaan terbaru saya : </p>
+            </div>
+
+            <!-- Works -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 m-8">
+                <div class="bg-white px-4 -y-4 m-2 shadow-lg rounded">
+                    <img src="./img/img1.jpg" alt="" class="w-full mt-4 rounded-lg">
+                    <div class="px-2 py-2 text-center">
+                        <p class="font-bold text-xl  mb-2 text-gray-700">
+                            Sistem Informasi Penelitian
+                        </p>
+                        <p class="text-gray-700 text-base">
+                            Sistem informasi Penelitian untuk dosen dan mahasiswa di Universitas Putra Indonesia "YPTK"
+                        </p>
+                    </div>
+                    <div class="px-2 py-4 text-center">
+                        <button
+                            class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 shadow-md rounded-tr-lg rounded-bl-lg">
+                            Detail
+                        </button>
+                    </div>
+                </div>
+
+                <div class="bg-white px-4 -y-4 m-2 shadow-lg rounded">
+                    <img src="./img/img2.jpg" alt="" class="w-full mt-4 rounded-lg">
+                    <div class="px-2 py-2 text-center">
+                        <p class="font-bold text-xl  mb-2 text-gray-700">
+                            Sistem Informasi Perpustakaan
+                        </p>
+                        <p class="text-gray-700 text-base">
+                            Sistem informasi Penelitian untuk dosen dan mahasiswa di Universitas Putra Indonesia "YPTK"
+                        </p>
+                    </div>
+                    <div class="px-2 py-4 text-center">
+                        <button
+                            class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 shadow-md rounded-tr-lg rounded-bl-lg">
+                            Detail
+                        </button>
+                    </div>
+                </div>
+
+                <div class="bg-white px-4 -y-4 m-2 shadow-lg rounded">
+                    <img src="./img/img3.jpg" alt="" class="w-full mt-4 rounded-lg">
+                    <div class="px-2 py-2 text-center">
+                        <p class="font-bold text-xl  mb-2 text-gray-700">
+                            Sistem Informasi Keuangan
+                        </p>
+                        <p class="text-gray-700 text-base">
+                            Sistem informasi Penelitian untuk dosen dan mahasiswa di Universitas Putra Indonesia "YPTK"
+                        </p>
+                    </div>
+                    <div class="px-2 py-4 text-center">
+                        <button
+                            class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 shadow-md rounded-tr-lg rounded-bl-lg">
+                            Detail
+                        </button>
+                    </div>
+                </div>
+
+                <div class="bg-white px-4 -y-4 m-2 shadow-lg rounded">
+                    <img src="./img/img1.jpg" alt="" class="w-full mt-4 rounded-lg">
+                    <div class="px-2 py-2 text-center">
+                        <p class="font-bold text-xl  mb-2 text-gray-700">
+                            Sistem Informasi Penelitian
+                        </p>
+                        <p class="text-gray-700 text-base">
+                            Sistem informasi Penelitian untuk dosen dan mahasiswa di Universitas Putra Indonesia "YPTK"
+                        </p>
+                    </div>
+                    <div class="px-2 py-4 text-center">
+                        <button
+                            class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 shadow-md rounded-tr-lg rounded-bl-lg">
+                            Detail
+                        </button>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section id="contact" class="w-screen mx-auto px-4 bg-indigo-700 h-32">
-            Contact Me
+        <!-- Contact Me -->
+        <section id="contact" class="w-screen mx-auto py-4 gradient-contact">
+            <h1 class="w-full my-2 text-5xl font-bold text-center text-white">Contact Me</h1>
+            <div class="mb-4">
+                <div class="h-1 mx-auto bg-pink-500 w-1/4 opacity-75 my-0 py-0 rounded"></div>
+            </div>
+            <div class="container p-4 mb-6 w-full lg:w-1/2 shadow-lg rounded-lg bg-gray-200 mx-auto">
+                <form action="" class="p-5 lg:p-10 text-center">
+                    <h4 class="text-2xl font-semibold">Want to contact me?</h4>
+                    <p class="mt-1 mb-4 text-gray-600">Please send message.</p>
+                    <div class="w-full mb-4 mt-8">
+                        <!-- <label for="" class="uppercase text-gray-600 text-xs font-bold">Name</label> -->
+                        <input type="text"
+                            class="mt-2 px-3 py-3 placeholder-gray-400 text-gray-600 bg-white rounded text-sm shadow w-full"
+                            placeholder="Full Name">
+                    </div>
+
+                    <div class="w-full mb-4 mt-8">
+                        <!-- <label for="" class="uppercase text-gray-600 text-xs font-bold">Email</label> -->
+                        <input type="text"
+                            class="mt-4 px-3 py-3 placeholder-gray-400 text-gray-600 bg-white rounded text-sm shadow w-full"
+                            placeholder="Email">
+                    </div>
+
+                    <div class="w-full mb-4 mt-8">
+                        <!-- <label for="" class="uppercase text-gray-600 text-xs font-bold">Pesan</label> -->
+                        <textarea name="" id="" cols="80" rows="4"
+                            class="mt-4 px-3 py-3 placeholder-gray-400 text-gray-600 bg-white rounded text-sm shadow w-full"
+                            placeholder="Message"></textarea>
+                    </div>
+
+                    <div class="mt-6">
+                        <button
+                            class="bg-indigo-700 text-white text-sm font-bold uppercase px-6 py-3 rounded shadow hover:bg-indigo-900 hover:shadow-lg"
+                            type="button">
+                            Send Message
+                        </button>
+                    </div>
+                </form>
+            </div>
         </section>
     </main>
 
-    <footer class="w-screen mx-auto px-4 bg-gray-300 h-32">Footer</footer>
+    <footer class="w-screen mx-auto py-4 bg-white mt-8 mb-8">
+        <div class="text-center">
+            <!-- link & icon -->
+            <a href="#" class="text-indigo-700 hover:text-indigo-900 p-2 ">
+                <i class="fa-2x fab fa-facebook"></i>
+            </a>
+            <a href="#" class="text-indigo-700 hover:text-indigo-900 p-2 ">
+                <i class="fa-2x fab fa-twitter"></i>
+            </a>
+            <a href="#" class="text-indigo-700 hover:text-indigo-900 p-2 ">
+                <i class="fa-2x fab fa-instagram"></i>
+            </a>
+        </div>
+        <div class="text-center mt-4 text-gray-600">
+            Design with Tailwindcss
+        </div>
+    </footer>
 </body>
 
 </html>

@@ -1,0 +1,10 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Tomorrow Night Blue",
+    "editor.tabSize": 2,
+    "editor.fontSize": 13,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    }
+}

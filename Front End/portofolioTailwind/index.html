@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind Portofolio</title>
+
+    <!-- Tailwind CSS -->
+    <link rel="stylesheet" href="./dist/output.css" />
+
+    <!-- MY Style -->
+    <link rel="stylesheet" href="./dist/style.css">
+</head>
+
+<body>
+    <header>
+        <!-- Navbar -->
+        <section id="navbar" class="w-screen mx-auto px-4">
+            <nav class="flex flex-wrap py-6 justify-between">
+                <!-- Logo -->
+                <div class="flex flex-shrink-0 mr-6">
+                    <img src="./img/logo.png" alt="Logo" class="h-10 w-52 mr-2" />
+                </div>
+
+                <!-- Burger Botton -->
+                <div class="block lg:hidden">
+                    <a href=""
+                        class="flex items-center px-3 py-2 rounded border border-indigo-400 text-indigo-500 hover:text-indigo-700 hover:border-indigo-700">
+                        <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg></a>
+                </div>
+
+                <!-- Link -->
+                <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+                    <div class="text-sm lg:flex-grow">
+                        <a href="#about"
+                            class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-gray-900 text-lg mr-4">About
+                            Me</a>
+                        <a href="#skill"
+                            class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-gray-900 text-lg mr-4">Skill
+                            Framework</a>
+                        <a href="#work"
+                            class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-gray-900 text-lg mr-4">Recent
+                            Work</a>
+                        <a href="#contact"
+                            class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-gray-900 text-lg mr-4">Contact
+                            Me</a>
+                    </div>
+
+                    <!-- Button -->
+                    <div class="">
+                        <a href="#"
+                            class="inline-block text-sm px-4 py-2 rounded text-gray-600 border border-gray-600 hover:border-transparent hover:text-white hover:bg-indigo-700 mt-2">Contact
+                            Me</a>
+                    </div>
+                </div>
+            </nav>
+        </section>
+    </header>
+
+    <main>
+        <section id="about" class="w-screen mx-auto px-4 gradient">
+            <div class="px-16 py-8 text-center text-white">
+                <!-- Title -->
+                <h1 class="w-full text-5xl font-bold">About Me</h1>
+
+                <!-- Line -->
+                <div class="mb-4">
+                    <div class="bg-pink-500 w-1/2 sm:w-1/2 md:w-1/2 opacity-75 rounded h-1 mx-auto mt-4"></div>
+                </div>
+
+                <h2 class="text-3xl font-bold mb-2">
+                    Hi, I'm Yasir. Thank you for visiting my website.
+                </h2>
+
+                <h3 class="text-lg mb-2">
+                    I'm full stack developer and AI enthusiast. I make website and develop AI model.
+                </h3>
+
+                <div class="w-full">
+                    <div class="px-4 py-4">
+                        <img src="./img/baby.jpg" alt="Avatar"
+                            class="shadow-lg rounded-full max-w-full mx-auto text-center w-48">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skill" class="w-screen mx-auto px-4 bg-white h-32">
+            Skill Framework
+        </section>
+
+        <section id="work" class="w-screen mx-auto px-4 bg-gray-300 h-32">
+            Recent Work
+        </section>
+
+        <section id="contact" class="w-screen mx-auto px-4 bg-indigo-700 h-32">
+            Contact Me
+        </section>
+    </main>
+
+    <footer class="w-screen mx-auto px-4 bg-gray-300 h-32">Footer</footer>
+</body>
+
+</html>

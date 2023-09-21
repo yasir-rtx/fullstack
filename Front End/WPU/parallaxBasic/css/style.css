@@ -1,0 +1,19 @@
+body {
+    width: 600px;
+    height: 2000px;
+    font-family: arial;
+    font-size: 1.5em;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background: aquamarine;
+    margin: auto;
+}

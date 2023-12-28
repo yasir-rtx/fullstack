@@ -1,0 +1,70 @@
+.box1,
+.box2,
+.box3 {
+    height: 200px;
+    width: 200px;
+}
+
+body {
+    height: 2000px;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: blueviolet;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+nav > p {
+    color: white;
+    position: absolute;
+}
+
+.container {
+    border: 10px solid black;
+    position: relative;
+    width: 600px;
+    margin: 60px auto 0;
+}
+
+.box1 {
+    background-color: lime;
+}
+
+.box2 {
+    background-color: salmon;
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+
+.box3 {
+    background-color: blue;
+    position: fixed;
+    top: 500px;
+    right: 0;
+}
+
+.x {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    position: absolute;
+    bottom: -30px;
+    left: -30px;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+}
+
+.x:hover {
+    background-color: rgb(102, 6, 6);
+    color: white;
+    box-shadow: 0 0 10px black;
+}
